@@ -1,4 +1,9 @@
 package org.github.galacticquest.models;
 
-public class LaserGun {
+public class LaserGun implements Weapon {
+
+    @Override
+    public void fire() {
+
+    }
 }

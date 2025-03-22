@@ -1,4 +1,9 @@
 package org.github.galacticquest.models;
 
-public class MissileLauncher {
+public class MissileLauncher implements Weapon{
+
+    @Override
+    public void fire() {
+
+    }
 }
